@@ -47,6 +47,16 @@ p {
     background-color: #9BC53D;
 }
 
+.map {
+    text-align: center;
+    width: auto;
+}
+
+.contact {
+    font-size: 40px;
+    width: auto;
+    text-align: left;
+}
 
 iframe {
     text-align: center;
