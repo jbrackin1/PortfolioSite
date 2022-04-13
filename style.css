@@ -1,13 +1,15 @@
+/* body style for the entire page */
 body {
     background-color: #9BC53D;
 }
-
+/* img style */
 img {
     width: 241px;
     height: auto;
     margin: 0 auto;
 }
 
+/* h1 styles */
 h1
 {
     width: 95%;
@@ -17,6 +19,7 @@ h1
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+/* ul style */
 ul {
     
     font-size: 50px;
@@ -24,8 +27,10 @@ ul {
     text-align: left;
 }
 
+/* center class to style ol */
 .center { text-align: center; list-style-position: inside; }
 
+ /* h2 styles */
 h2 {
     background-color: green;
     width: 95%;
@@ -35,10 +40,13 @@ h2 {
     max-width:  auto;
 }
 
+/* h3 style  */
 h3 {
     font-size:65;
+    text-align: center;
 }
 
+/* paragraph style */
 p {
     width: 95%;
     height: auto;
@@ -48,18 +56,40 @@ p {
     background-color: #9BC53D;
 }
 
+/* map section style */
 .map {
     text-align: center;
     width: auto;
 }
 
+/* contact section style */
 .contact {
     font-size: 40px;
     width: auto;
     text-align: left;
 }
 
+/* center iframe */
 iframe {
     text-align: center;
 }
 
+/* regular link */
+a:link {
+    color: green;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: darkgreen;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: lightseagreen;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(32, 145, 32);
+  }
